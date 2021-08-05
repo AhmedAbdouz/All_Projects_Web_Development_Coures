@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Info</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <address>
+        You can contact author at <a href="zewail102@gmail.com">zewail102@gmail.com</a> <br>
+        <a href="tel:+201159108062"> tel: 0201159108062</a> <br>
+        <a href="https://www.facebook.com/ahmed.zoiel.9">Facebook page</a> <br>
+        <h3>Address:-</h3>
+        <p>Villa 17/2 Mostamary El gededaa <br> El Ray Luxor Egypt </p>
+
+    </address>
+    <hr>
+    <h2>give us Your Feedback </h2>
+    <form action="index.html">
+        <label > Your Name :- </label> <input type="text"> <br>
+        <label >Your gender :- </label> <br>
+        <input type="radio" name="gender" value="male"> Male <br>
+        <input type="radio" name="gender" value="female"> Female <br>   
+        <label >Send us Your Message :- </label>  <br>
+        <textarea name="yourmessage" id="" cols="70" rows="10"></textarea> <br>
+        <label for="">Rate our website <b>out of 10</b></label> <br>
+        <input type="range" id="send" oninput="result.value = send.value" min="0" max="10">
+        <input type="text" id="result"> <br>
+        <input type="submit" value ="Submit!">   <input type="reset" value="Reset"><br>
+        
+
+    </form>
+</body>
+</html>

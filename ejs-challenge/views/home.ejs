@@ -1,0 +1,22 @@
+<%- include("partials/header"); -%>
+    <script>
+        const lodash = require("lodash");
+        const link = lodash.lowerCase(e.title);
+    </script>
+    <h1>Home</h1>
+    <p>
+        <%= homeStartingContent %>
+    </p>
+
+    <%  posts.forEach(function(e){ %>
+        <h2>
+            <%= e.title %>
+        </h2>
+        <p>
+            <%= e.content.substring(0,100)+"..." %>
+                <a href="/posts/<%= e._id %>"> Read More.</a>
+        </p>
+
+        <% }); %>
+
+            <%- include("partials/footer"); -%>

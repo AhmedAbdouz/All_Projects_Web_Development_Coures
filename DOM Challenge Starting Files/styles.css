@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    background-color: darkseagreen;
+}
+
+h1 {
+    color: red;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+table {
+    margin: auto;
+}
